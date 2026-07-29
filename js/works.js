@@ -5,7 +5,7 @@ const WORKS = [
     image: "images/Yin And Yang Triptych (3x40x40).jpg",
     technique: "akryl na płótnie",
     format: "100 × 80 cm",
-
+    year: "",
   },
   {
     slug: "zmmmmmiana",
@@ -13,7 +13,7 @@ const WORKS = [
     image: "images/Triptych Of Encrypted Messages (3x40x40).jpg",
     technique: "akryllllll na płótnie",
     format: "90 × 70 cm",
-
+    year: "",
   },
   {
     slug: "fragment-pamieci-deszcz",
@@ -26,7 +26,7 @@ const WORKS = [
   {
     slug: "glosy-w-starym-lesie",
     title: "Głosy ukryte w starym lesie",
-    image: "images/work-4.svg",
+    image: "images/From Fire To Water (30x30).jpg",
     technique: "akryl i tusz na płótnie",
     format: "80 × 60 cm",
     year: "2021",
