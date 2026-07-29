@@ -9,7 +9,7 @@ const WORKS = [
   },
   {
     slug: "zmmmmmiana",
-    title: "Ptaki odlatują przed burzą",
+    title: "zmmmmmmmmmmmmiana",
     image: "images/work-2.svg",
     technique: "akryl na płótnie",
     format: "90 × 70 cm",
