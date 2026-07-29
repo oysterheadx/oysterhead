@@ -10,7 +10,7 @@ const WORKS = [
   {
     slug: "zmmmmmiana",
     title: "zmmmmmmmmmmmmiana",
-    image: "images/work-2.svg",
+    image: "images/Triptych Of Encrypted Messages (3x40x40).jpg",
     technique: "akryllllll na płótnie",
     format: "90 × 70 cm",
 
@@ -18,7 +18,7 @@ const WORKS = [
   {
     slug: "fragment-pamieci-deszcz",
     title: "Fragment pamięci o deszczu",
-    image: "images/work-3.svg",
+    image: "images/Chaotic Salmon (60x40).jpg",
     technique: "olej na płótnie",
     format: "120 × 100 cm",
     year: "2024",
