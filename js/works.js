@@ -8,7 +8,7 @@ const WORKS = [
     year: "2023",
   },
   {
-    slug: "ptaki-przed-burza",
+    slug: "zmmmmmiana",
     title: "Ptaki odlatują przed burzą",
     image: "images/work-2.svg",
     technique: "akryl na płótnie",
