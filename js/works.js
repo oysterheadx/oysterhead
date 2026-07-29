@@ -1,11 +1,11 @@
 const WORKS = [
   {
-    slug: "zmiana",
-    title: "zmiana",
+    slug: "Yin And Yang Triptych",
+    title: "Yin And Yang Triptych",
     image: "images/Yin And Yang Triptych (3x40x40).jpg",
     technique: "akryl na płótnie",
-    format: "100 × 80 cm",
-    year: "",
+    format: "",
+    year: "3 x 40 x 40 cm",
   },
   {
     slug: "zmmmmmiana",
@@ -34,7 +34,7 @@ const WORKS = [
   {
     slug: "kolory-znikajace-o-zmroku",
     title: "Kolory znikające o zmroku",
-    image: "images/work-5.svg",
+    image: "images/From Fire To Water (50x70).jpg",
     technique: "olej na płótnie",
     format: "70 × 70 cm",
     year: "2023",
@@ -42,7 +42,7 @@ const WORKS = [
   {
     slug: "ruiny-marzen-pod-powiekami",
     title: "Ruiny marzeń pod powiekami",
-    image: "images/work-6.svg",
+    image: "images/From Fire To Water (30x30).jpg",
     technique: "akryl na desce",
     format: "60 × 90 cm",
     year: "2020",
