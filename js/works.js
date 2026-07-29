@@ -5,7 +5,7 @@ const WORKS = [
     image: "images/Yin And Yang Triptych (3x40x40).jpg",
     technique: "akryl na płótnie",
     format: "100 × 80 cm",
-//    year: "2023",
+
   },
   {
     slug: "zmmmmmiana",
@@ -13,7 +13,7 @@ const WORKS = [
     image: "images/work-2.svg",
     technique: "akryllllll na płótnie",
     format: "90 × 70 cm",
-//    year: "2022",
+
   },
   {
     slug: "fragment-pamieci-deszcz",
