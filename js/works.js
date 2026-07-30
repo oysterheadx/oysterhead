@@ -37,13 +37,13 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "From Fire To Water",
+    title: "From Fire To Water Small",
     file: "from-fire-to-water-30.jpg",
     technique: "akryl na płótnie",
     format: "30×30 cm",
   },
   {
-    title: "From Fire To Water",
+    title: "From Fire To Water Large",
     file: "from-fire-to-water-50.jpg",
     technique: "akryl na płótnie",
     format: "50×70 cm",
