@@ -1,14 +1,14 @@
 const WORKS = [
 
 {
-    slug: "yin-and-yang-triptych",
+   
     title: "Yin And Yang Triptych",
     file: "yin-and-yang-triptych.jpg",
     technique: "Akryl na płótnie",
     format: "3 × 40 × 40 cm"
 },
 {
-    slug: "triptych-of-encrypted-messages",
+   
     title: "Triptych Of Encrypted Messages",
     file: "triptych-of-encrypted-messages.jpg",
     technique: "Akryl na płótnie",
