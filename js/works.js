@@ -35,20 +35,20 @@ const WORKS = [
     file: "from-fire-to-water-50.jpg",
     technique: "akryl na płótnie",
     format: "50×70 cm",
+  },
+  {
+    title: "Broken Cross",
+    file: "broken-cross.jpg",
+    technique: "akryl na płótnie",
+    format: "40×40 cm",
+  },
+  {
+    title: "Palette Of Drops",
+    file: "palette-of-drops.jpg",
+    technique: "akryl na płótnie",
+    format: "60×40 cm",
   }
-  /*
-  {
-    title: "From Fire To Water",
-    file: "From Fire To Water (30x30).jpg",
-    technique: "akryl na desce",
-    format: "30 × 30 cm",
-  },
-  {
-    title: "Echo fal w ciemnej wodzie",
-    file: "work-7.svg",
-    technique: "olej na płótnie",
-    format: "100 × 90 cm",
-  },
+ /*
   {
     title: "Światło między gałęziami",
     file: "work-8.svg",
