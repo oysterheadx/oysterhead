@@ -5,49 +5,97 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>abstract art by oysterhead</title>
 <meta name="description" content="Galeria obrazów abstrakcyjnych — oysterhead.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
 <header class="site-header">
-  <h1 class="site-title">abstract&nbsp;art <span class="by">by</span> oysterhead</h1>
+    <h1 class="site-title">
+        abstract&nbsp;art <span class="by">by</span> oysterhead
+    </h1>
 </header>
 
 <main>
-  <section id="gallery" class="gallery" aria-label="Galeria prac"></section>
+    <section id="gallery" class="gallery" aria-label="Galeria prac"></section>
 </main>
 
 <footer class="site-footer">
-  <p>kontakt: studio@oysterhead.art&nbsp;&mdash;&nbsp;odpowiadam zawsze</p>
+    <p>kontakt: studio@oysterhead.art &mdash; odpowiadam zawsze</p>
 </footer>
 
 <div id="lightbox" class="lightbox" hidden>
-  <div class="lightbox-backdrop"></div>
-  <div class="lightbox-frame">
-    <figure class="lightbox-figure">
-      <img id="lightbox-image" class="lightbox-image" src="" alt="">
-      <figcaption class="lightbox-caption">
-        <span id="lightbox-title" class="lightbox-work-title"></span>
-        <span id="lightbox-meta" class="lightbox-meta"></span>
-      </figcaption>
-    </figure>
+
+    <div class="lightbox-backdrop"></div>
+
+    <div class="lightbox-frame">
+
+        <figure class="lightbox-figure">
+
+            <img
+                id="lightbox-image"
+                class="lightbox-image"
+                src=""
+                alt="">
+
+            <figcaption class="lightbox-caption">
+
+                <span id="lightbox-title"
+                      class="lightbox-work-title"></span>
+
+                <span id="lightbox-meta"
+                      class="lightbox-meta"></span>
+
+            </figcaption>
+
+        </figure>
+
+    </div>
+
     <nav class="lightbox-nav" aria-label="Nawigacja pracy">
-      <a href="#" id="lightbox-home" class="lightbox-link lightbox-link--home">
-        <span class="arrow arrow-up" aria-hidden="true"></span>
-        <span>Strona główna</span>
-      </a>
-      <button type="button" id="lightbox-next" class="lightbox-link lightbox-link--next">
-        <span>Następny</span>
-        <span class="arrow arrow-right" aria-hidden="true"></span>
-      </button>
+
+        <button
+            type="button"
+            id="lightbox-prev"
+            class="lightbox-link">
+
+            <span class="arrow arrow-left" aria-hidden="true"></span>
+            <span>Poprzedni</span>
+
+        </button>
+
+        <a
+            href="#"
+            id="lightbox-home"
+            class="lightbox-link">
+
+            <span class="arrow arrow-up" aria-hidden="true"></span>
+            <span>Strona główna</span>
+
+        </a>
+
+        <button
+            type="button"
+            id="lightbox-next"
+            class="lightbox-link">
+
+            <span>Następny</span>
+            <span class="arrow arrow-right" aria-hidden="true"></span>
+
+        </button>
+
     </nav>
-  </div>
+
 </div>
 
 <script src="js/works.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>

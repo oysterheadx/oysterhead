@@ -235,8 +235,10 @@ body {
 .lightbox-nav {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  justify-content: center;
+  gap: 4rem;
   margin-top: 0.2rem;
+  flex-wrap: wrap;
 }
 
 .lightbox-link {
@@ -252,7 +254,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  padding: 0.4rem 0.1rem;
+  padding: 0.6rem 0.6rem;
   transition: color 0.25s ease;
 }
 
@@ -314,7 +316,23 @@ body {
   background: none;
   transform: rotate(45deg);
 }
+.arrow-left::before {
+  width: 13px;
+  height: 1.5px;
+  left: 0;
+  top: 5.75px;
+}
 
+.arrow-left::after {
+  width: 8px;
+  height: 8px;
+  left: 2px;
+  top: 0;
+  border-top: 1.5px solid currentColor;
+  border-left: 1.5px solid currentColor;
+  background: none;
+  transform: rotate(-45deg);
+}
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
