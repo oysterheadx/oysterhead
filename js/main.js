@@ -49,13 +49,25 @@
     return work.technique || work.format || "";
   }
 
+  function loadImage(file) {
+
+    lightboxImage.style.visibility = "hidden";
+
+    lightboxImage.onload = function () {
+      lightboxImage.style.visibility = "visible";
+    };
+
+    lightboxImage.src = "images/full/" + file;
+  }
+
   function openLightbox(index) {
     const work = WORKS[index];
     if (!work) return;
 
     lightboxEl.dataset.index = index;
 
-    lightboxImage.src = "images/full/" + work.file;
+    loadImage(work.file);
+
     lightboxImage.alt = work.title;
     lightboxTitle.textContent = work.title;
     lightboxMeta.textContent = metaText(work);
@@ -80,10 +92,12 @@
 
   function openLightboxReplace(index) {
     const work = WORKS[index];
+    if (!work) return;
 
     lightboxEl.dataset.index = index;
 
-    lightboxImage.src = "images/full/" + work.file;
+    loadImage(work.file);
+
     lightboxImage.alt = work.title;
     lightboxTitle.textContent = work.title;
     lightboxMeta.textContent = metaText(work);
@@ -107,7 +121,9 @@
     const work = WORKS[index];
 
     lightboxEl.dataset.index = index;
-    lightboxImage.src = "images/full/" + work.file;
+
+    loadImage(work.file);
+
     lightboxImage.alt = work.title;
     lightboxTitle.textContent = work.title;
     lightboxMeta.textContent = metaText(work);
@@ -123,14 +139,12 @@
 
   lightboxNext.addEventListener("click", showNext);
 
- lightboxEl.addEventListener("click", (e) => {
-  if (
-    e.target === lightboxEl ||
-    e.target === lightboxBackdrop
-  ) {
-    closeLightbox();
-  }
-});
+  lightboxEl.addEventListener("click", e => {
+    if (e.target === lightboxBackdrop || e.target === lightboxEl) {
+      closeLightbox();
+    }
+  });
+
   document.addEventListener("keydown", e => {
     if (lightboxEl.hidden) return;
 
