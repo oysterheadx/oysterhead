@@ -83,16 +83,17 @@ const WORKS = [
     file: "broken-cross.jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
+  },
+  {
+    title: "Golden Autumn",
+    file: "Golden Autumn (40x40).jpg",
+    technique: "akryl i tusz na płótnie",
+    format: "40×40 cm",
   }
 
  /*
 
-  {
-    title: "Podróż przez mgliste pole",
-    file: "work-10.svg",
-    technique: "akryl i tusz na płótnie",
-    format: "110 × 90 cm",
-  },
+
   {
     title: "Zapomniane miasto nocy",
     file: "work-11.svg",
