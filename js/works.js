@@ -87,7 +87,7 @@ const WORKS = [
   {
     title: "Golden Autumn",
     file: "Golden Autumn (40x40).jpg",
-    technique: "akryl i tusz na płótnie",
+    technique: "akryl na płótnie",
     format: "40×40 cm",
   },
   {
