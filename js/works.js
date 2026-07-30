@@ -24,6 +24,18 @@ const WORKS = [
     technique: "akryl na płótnie",
     format: "40×40 cm",
   },
+    {
+    title: "All The Tubes I Had Small",
+    file: "All The Tubes I Had Small (40x40).jpg",
+    technique: "akryl na płótnie",
+    format: "80 × 80 cm",
+  },
+  {
+    title: "All The Tubes I Had Large",
+    file: "All The Tubes I Had Large (50x70).jpg",
+    technique: "akryl na płótnie",
+    format: "50×70 cm",
+  },
   {
     title: "From Fire To Water",
     file: "from-fire-to-water-30.jpg",
@@ -49,18 +61,7 @@ const WORKS = [
     format: "60×40 cm",
   }
  /*
-  {
-    title: "Światło między gałęziami",
-    file: "work-8.svg",
-    technique: "akryl na płótnie",
-    format: "80 × 80 cm",
-  },
-  {
-    title: "Cisza po burzy piaskowej",
-    file: "work-9.svg",
-    technique: "olej na desce",
-    format: "90 × 70 cm",
-  },
+
   {
     title: "Podróż przez mgliste pole",
     file: "work-10.svg",
