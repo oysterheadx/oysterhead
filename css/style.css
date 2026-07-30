@@ -112,6 +112,7 @@ body {
 }
 
 .artwork-caption {
+  display: block;
   padding: 1.3rem 0.9rem 0.9rem;
   font-size: 0.86rem;
   color: var(--ink-dim);
