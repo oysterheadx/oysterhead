@@ -6,6 +6,7 @@
   const lightboxTitle = document.getElementById("lightbox-title");
   const lightboxMeta = document.getElementById("lightbox-meta");
   const lightboxHome = document.getElementById("lightbox-home");
+  const lightboxPrev = document.getElementById("lightbox-prev");
   const lightboxNext = document.getElementById("lightbox-next");
   const lightboxBackdrop = lightboxEl.querySelector(".lightbox-backdrop");
 
@@ -103,12 +104,30 @@
     lightboxMeta.textContent = metaText(work);
   }
 
+  function showPrevious() {
+
+    const current = Number(lightboxEl.dataset.index || 0);
+    const previous = (current - 1 + WORKS.length) % WORKS.length;
+
+    const work = WORKS[previous];
+
+    lightboxEl.dataset.index = previous;
+
+    loadImage(work.file);
+
+    lightboxImage.alt = work.title;
+    lightboxTitle.textContent = work.title;
+    lightboxMeta.textContent = metaText(work);
+  }
+
   lightboxHome.addEventListener("click", function (e) {
 
     e.preventDefault();
     closeLightbox();
 
   });
+
+  lightboxPrev.addEventListener("click", showPrevious);
 
   lightboxNext.addEventListener("click", showNext);
 
@@ -120,6 +139,9 @@
 
     if (e.key === "Escape")
       closeLightbox();
+
+    if (e.key === "ArrowLeft")
+      showPrevious();
 
     if (e.key === "ArrowRight")
       showNext();
