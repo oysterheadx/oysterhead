@@ -49,6 +49,18 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
+    title: "Palette Of Drops",
+    file: "palette-of-drops.jpg",
+    technique: "akryl na płótnie",
+    format: "60×40 cm",
+  },  
+  {
+    title: "My Basic Color Set",
+    file: "My Basic Color Set (30x30).jpg",
+    technique: "akryl na płótnie",
+    format: "30×30 cm",
+  },
+  {
     title: "From Fire To Water Small",
     file: "from-fire-to-water-30.jpg",
     technique: "akryl na płótnie",
@@ -65,13 +77,8 @@ const WORKS = [
     file: "broken-cross.jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
-  },
-  {
-    title: "Palette Of Drops",
-    file: "palette-of-drops.jpg",
-    technique: "akryl na płótnie",
-    format: "60×40 cm",
   }
+
  /*
 
   {
