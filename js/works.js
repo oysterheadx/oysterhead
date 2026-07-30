@@ -27,7 +27,7 @@ const WORKS = [
   {
     title: "From Fire To Water",
     file: "from-fire-to-water-30.jpg",
-    technique: "akryl i tusz na płótnie",
+    technique: "akryl na płótnie",
     format: "30×30 cm",
   },
   {
