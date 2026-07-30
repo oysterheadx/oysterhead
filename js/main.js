@@ -131,7 +131,45 @@
 
   lightboxNext.addEventListener("click", showNext);
 
-  lightboxBackdrop.addEventListener("click", closeLightbox);
+  /*
+   * Kliknięcie w czarne tło lightboxa
+   * zamyka powiększoną pracę.
+   *
+   * Nie zamykamy lightboxa, jeśli kliknięcie
+   * nastąpiło w obrazie, podpisie lub nawigacji.
+   */
+  lightboxEl.addEventListener("click", function (e) {
+
+  if (
+    e.target === lightboxImage ||
+    e.target.closest(".lightbox-caption") ||
+    e.target.closest(".lightbox-nav") ||
+    e.target.closest(".lightbox-link")
+  ) {
+    return;
+  }
+
+  closeLightbox();
+
+});
+
+  /*
+   * Kliknięcie lewej lub prawej połowy obrazu
+   * przechodzi do poprzedniej / następnej pracy.
+   */
+  lightboxImage.addEventListener("click", function (e) {
+
+    const rect = lightboxImage.getBoundingClientRect();
+    const clickPosition = e.clientX - rect.left;
+    const imageMiddle = rect.width / 2;
+
+    if (clickPosition < imageMiddle) {
+      showPrevious();
+    } else {
+      showNext();
+    }
+
+  });
 
   document.addEventListener("keydown", function (e) {
 
