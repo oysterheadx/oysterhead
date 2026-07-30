@@ -73,6 +73,12 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
+    title: "Red Blue Splatter",
+    file: "Red Blue Splatter (40x40).jpg",
+    technique: "akryl na płótnie",
+    format: "40x40 cm",
+  },
+  {
     title: "Broken Cross",
     file: "broken-cross.jpg",
     technique: "akryl na płótnie",
