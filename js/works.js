@@ -5,14 +5,14 @@ const WORKS = [
     title: "Yin And Yang Triptych",
     file: "yin-and-yang-triptych.jpg",
     technique: "Akryl na płótnie",
-    format: "3 × 40 × 40 cm"
+    format: "3×40×40 cm"
 },
 {
    
     title: "Triptych Of Encrypted Messages",
     file: "triptych-of-encrypted-messages.jpg",
     technique: "Akryl na płótnie",
-    format: "3 × 40 × 40 cm"
+    format: "3×40×40 cm"
 }
 /*
   {
