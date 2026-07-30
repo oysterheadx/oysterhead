@@ -1,12 +1,20 @@
 const WORKS = [
-  {
+
+{
     slug: "yin-and-yang-triptych",
     title: "Yin And Yang Triptych",
-    file: "Yin And Yang Triptych (3x40x40).jpg",
-    technique: "akryl na płótnie",
-    format: "3 × 40 × 40 cm",
-    year: "",
-  },
+    file: "yin-and-yang-triptych.jpg",
+    technique: "Akryl na płótnie",
+    format: "3 × 40 × 40 cm"
+},
+{
+    slug: "triptych-of-encrypted-messages",
+    title: "Triptych Of Encrypted Messages",
+    file: "triptych-of-encrypted-messages.jpg",
+    technique: "Akryl na płótnie",
+    format: "3 × 40 × 40 cm"
+}
+/*
   {
     slug: "triptych-of-encrypted-messages",
     title: "Triptych Of Encrypted Messages",
@@ -94,5 +102,6 @@ const WORKS = [
     technique: "akryl na płótnie",
     format: "70 × 90 cm",
     year: "2023",
-  },
+  }
+  */
 ];
