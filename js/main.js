@@ -123,12 +123,14 @@
 
   lightboxNext.addEventListener("click", showNext);
 
-  lightboxEl.addEventListener("click", (e) => {
-  if (e.target === lightboxEl || e.target === lightboxBackdrop) {
+ lightboxEl.addEventListener("click", (e) => {
+  if (
+    e.target === lightboxEl ||
+    e.target === lightboxBackdrop
+  ) {
     closeLightbox();
   }
 });
-
   document.addEventListener("keydown", e => {
     if (lightboxEl.hidden) return;
 

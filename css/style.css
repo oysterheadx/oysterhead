@@ -113,7 +113,7 @@ body {
 
 .artwork-caption {
   display: block;
-  padding: 1.3rem 0.9rem 0.9rem;
+  padding: 1.0rem 0.9rem 0.9rem;
   font-size: 0.86rem;
   color: var(--ink-dim);
   letter-spacing: 0.01em;
@@ -175,7 +175,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 0.6rem;
-  width: min(99vw, 2200px);
+  width: fit-content;
+  max-width: 99vw;
   max-height: 99vh;
   padding: 0.6rem 0;
   animation: rise-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
