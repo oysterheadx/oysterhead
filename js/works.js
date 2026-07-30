@@ -23,25 +23,20 @@ const WORKS = [
     file: "squeezing-an-orange.jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
-  }
-
-/*
+  },
   {
-    slug: "from-fire-to-water-30",
     title: "From Fire To Water",
-    file: "From Fire To Water (30x30).jpg",
+    file: "from-fire-to-water-30.jpg",
     technique: "akryl i tusz na płótnie",
-    format: "30 × 30 cm",
-    year: "",
+    format: "30×30 cm",
   },
   {
-    slug: "from-fire-to-water-50",
     title: "From Fire To Water",
-    file: "From Fire To Water (50x70).jpg",
-    technique: "olej na płótnie",
-    format: "50 × 70 cm",
-    year: "",
-  },
+    file: "from-fire-to-water-50.jpg",
+    technique: "akryl na płótnie",
+    format: "50×70 cm",
+  }
+  /*
   {
     slug: "from-fire-to-water-30-2",
     title: "From Fire To Water",
