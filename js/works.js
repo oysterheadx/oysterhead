@@ -1,36 +1,31 @@
 const WORKS = [
 
 {
-   
     title: "Yin And Yang Triptych",
     file: "yin-and-yang-triptych.jpg",
-    technique: "Akryl na płótnie",
+    technique: "akryl na płótnie",
     format: "3×40×40 cm"
 },
 {
-   
     title: "Triptych Of Encrypted Messages",
     file: "triptych-of-encrypted-messages.jpg",
-    technique: "Akryl na płótnie",
-    format: "3×40×40 cm"
-}
-/*
-  {
-    slug: "triptych-of-encrypted-messages",
-    title: "Triptych Of Encrypted Messages",
-    file: "Triptych Of Encrypted Messages (3x40x40).jpg",
     technique: "akryl na płótnie",
-    format: "90 × 70 cm",
-    year: "",
+    format: "3×40×40 cm"
+},
+  {
+    title: "Chaotic Salmon",
+    file: "chaotic-salmon.jpg",
+    technique: "akryl na płótnie",
+    format: "60×40 cm",
   },
   {
-    slug: "chaotic-salmon",
-    title: "Chaotic Salmon",
-    file: "Chaotic Salmon (60x40).jpg",
-    technique: "olej na płótnie",
-    format: "60 × 40 cm",
-    year: "2024",
-  },
+    title: "Squeezing An Orange",
+    file: "squeezing-an-orange.jpg",
+    technique: "akryl na płótnie",
+    format: "40×40 cm",
+  }
+
+/*
   {
     slug: "from-fire-to-water-30",
     title: "From Fire To Water",
