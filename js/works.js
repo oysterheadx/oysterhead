@@ -43,6 +43,12 @@ const WORKS = [
     format: "50×50 cm",
   },
   {
+    title: "Measuring Circles",
+    file: "Measuring Circles (50x70).jpg",
+    technique: "akryl na płótnie",
+    format: "50×70 cm",
+  },
+  {
     title: "From Fire To Water Small",
     file: "from-fire-to-water-30.jpg",
     technique: "akryl na płótnie",
