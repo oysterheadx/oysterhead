@@ -30,17 +30,17 @@ const WORKS = [
     technique: "akryl na płótnie",
     format: "80 × 80 cm",
   },
-    {
-    title: "Colorful Circles",
-    file: "Colorful Circles (50x50).jpg",
-    technique: "akryl na płótnie",
-    format: "50×50 cm",
-  },
   {
     title: "All The Tubes I Had Large",
     file: "All The Tubes I Had Large (50x70).jpg",
     technique: "akryl na płótnie",
     format: "50×70 cm",
+  },
+  {
+    title: "Colorful Circles",
+    file: "Colorful Circles (50x50).jpg",
+    technique: "akryl na płótnie",
+    format: "50×50 cm",
   },
   {
     title: "From Fire To Water Small",
