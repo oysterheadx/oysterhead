@@ -1,43 +1,43 @@
 const WORKS = [
 
   {
-    title: "Yin And Yang Triptych",
+    title: "Yin and Yang Triptych",
     file: "yin-and-yang-triptych.jpg",
     technique: "akryl na płótnie",
     format: "3×40×40 cm"
   },
   {
-    title: "Triptych Of Encrypted Messages",
+    title: "Triptych of Encrypted Messages",
     file: "triptych-of-encrypted-messages.jpg",
     technique: "akryl na płótnie",
     format: "3×40×40 cm"
   },
   {
-    title: "Chaotic Salmon",
+    title: "Flesh Ground Dynamics",
     file: "chaotic-salmon.jpg",
     technique: "akryl na płótnie",
     format: "60×40 cm",
   },
   {
-    title: "Squeezing An Orange",
+    title: "Orange Canvas Splatters",
     file: "squeezing-an-orange.jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
   },
     {
-    title: "All The Tubes I Had Small",
+    title: "All the Tubes I Had Small",
     file: "All The Tubes I Had Small (40x40).jpg",
     technique: "akryl na płótnie",
     format: "80 × 80 cm",
   },
   {
-    title: "All The Tubes I Had Large",
+    title: "All the Tubes I Had Large",
     file: "All The Tubes I Had Large (50x70).jpg",
     technique: "akryl na płótnie",
     format: "50×70 cm",
   },
   {
-    title: "Colorful Circles",
+    title: "Segmented Circular Flow",
     file: "Colorful Circles (50x50).jpg",
     technique: "akryl na płótnie",
     format: "50×50 cm",
@@ -49,37 +49,37 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Palette Of Drops",
+    title: "Palette of Drops",
     file: "palette-of-drops.jpg",
     technique: "akryl na płótnie",
     format: "60×40 cm",
   },  
   {
-    title: "My Basic Color Set",
+    title: "Primary Colors Grid",
     file: "My Basic Color Set (30x30).jpg",
     technique: "akryl na płótnie",
     format: "30×30 cm",
   },
   {
-    title: "From Fire To Water Small",
+    title: "Contrast in Motion Small",
     file: "from-fire-to-water-30.jpg",
     technique: "akryl na płótnie",
     format: "30×30 cm",
   },
   {
-    title: "From Fire To Water Large",
+    title: "Contrast in Motion Large",
     file: "from-fire-to-water-50.jpg",
     technique: "akryl na płótnie",
     format: "50×70 cm",
   },
   {
-    title: "Red Blue Splatter",
+    title: "Dual Color Ring",
     file: "Red Blue Splatter (40x40).jpg",
     technique: "akryl na płótnie",
     format: "40x40 cm",
   },
   {
-    title: "Broken Cross",
+    title: "Distorted Red Cross",
     file: "broken-cross.jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
@@ -91,7 +91,7 @@ const WORKS = [
     format: "40×40 cm",
   },
   {
-    title: "White Crosses",
+    title: "Blue Canvas with X",
     file: "White Crosses (40x40).jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
