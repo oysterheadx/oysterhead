@@ -37,7 +37,7 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Segmented Circular Flow",
+    title: "Calibrating Circles",
     file: "Colorful Circles (50x50).jpg",
     technique: "akryl na płótnie",
     format: "50×50 cm",
@@ -49,7 +49,7 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Palette of Drops",
+    title: "Abstract Spectrum Skyline",
     file: "palette-of-drops.jpg",
     technique: "akryl na płótnie",
     format: "60×40 cm",
@@ -85,7 +85,7 @@ const WORKS = [
     format: "40×40 cm",
   },
   {
-    title: "Golden Autumn",
+    title: "Golden Texture in Dark",
     file: "Golden Autumn (40x40).jpg",
     technique: "akryl na płótnie",
     format: "40×40 cm",
