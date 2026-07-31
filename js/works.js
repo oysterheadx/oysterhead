@@ -49,11 +49,11 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Abstract Spectrum Skyline",
-    file: "palette-of-drops.jpg",
+    title: "Dual Color Ring",
+    file: "Red Blue Splatter (40x40).jpg",
     technique: "Acrylic on paper",
-    format: "60×40 cm",
-  },  
+    format: "40x40 cm",
+  },
   {
     title: "Primary Colors Grid",
     file: "My Basic Color Set (30x30).jpg",
@@ -73,11 +73,11 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Dual Color Ring",
-    file: "Red Blue Splatter (40x40).jpg",
+    title: "Abstract Spectrum Skyline",
+    file: "palette-of-drops.jpg",
     technique: "Acrylic on paper",
-    format: "40x40 cm",
-  },
+    format: "60×40 cm",
+  },  
   {
     title: "Distorted Red Cross",
     file: "broken-cross.jpg",
