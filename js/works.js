@@ -28,7 +28,7 @@ const WORKS = [
     title: "All the Tubes I Had Small",
     file: "All The Tubes I Had Small (40x40).jpg",
     technique: "Acrylic on canvas",
-    format: "80 × 80 cm",
+    format: "40×40 cm",
   },
   {
     title: "All the Tubes I Had Large",
