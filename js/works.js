@@ -67,10 +67,10 @@ const WORKS = [
     format: "29.7×42 cm",
   },
   {
-    title: "Vertical Sequence of Shapes",
-    file: "Vertical Sequence of Shapes.jpg",
-    technique: "Acrylic on paper",
-    format: "15×42 cm",
+    title: "Metallic Structure",
+    file: "Metallic Structure.jpg",
+    technique: "Acrylic on canvas",
+    format: "40×40 cm",
   },
   {
     title: "Contrast in Motion Small",
