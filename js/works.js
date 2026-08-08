@@ -25,13 +25,13 @@ const WORKS = [
     format: "40×40 cm",
   },
     {
-    title: "All the Tubes I Had Small",
+    title: "All the Tubes I Had (Small)",
     file: "All The Tubes I Had Small (40x40).jpg",
     technique: "Acrylic on canvas",
     format: "40×40 cm",
   },
   {
-    title: "All the Tubes I Had Large",
+    title: "All the Tubes I Had (Large)",
     file: "All The Tubes I Had Large (50x70).jpg",
     technique: "Acrylic on canvas",
     format: "50×70 cm",
@@ -49,13 +49,13 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Dual Color Ring",
+    title: "Force Duel",
     file: "Red Blue Splatter (40x40).jpg",
     technique: "Acrylic on canvas",
     format: "40x40 cm",
   },
   {
-    title: "Primary Colors Grid",
+    title: "Path Network",
     file: "My Basic Color Set (30x30).jpg",
     technique: "Acrylic on canvas",
     format: "30×30 cm",
@@ -73,19 +73,19 @@ const WORKS = [
     format: "40×40 cm",
   },
   {
-    title: "Contrast in Motion Small",
+    title: "Contrast in Motion (Small)",
     file: "from-fire-to-water-30.jpg",
     technique: "Acrylic on canvas",
     format: "30×30 cm",
   },
   {
-    title: "Contrast in Motion Large",
+    title: "Contrast in Motion (Large)",
     file: "from-fire-to-water-50.jpg",
     technique: "Acrylic on canvas",
     format: "50×70 cm",
   },
   {
-    title: "Abstract Spectrum Skyline",
+    title: "Urban Skyline",
     file: "palette-of-drops.jpg",
     technique: "Acrylic on canvas",
     format: "60×40 cm",
@@ -109,7 +109,7 @@ const WORKS = [
     format: "29.7×21 cm",
   },
   {
-    title: "Golden Texture in Dark",
+    title: "Golden Texture",
     file: "Golden Autumn (40x40).jpg",
     technique: "Acrylic on canvas",
     format: "40×40 cm",
