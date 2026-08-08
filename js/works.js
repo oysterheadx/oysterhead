@@ -7,10 +7,10 @@ const WORKS = [
     format: "3×40×40 cm"
   },
   {
-    title: "Triptych of Encrypted Messages",
-    file: "triptych-of-encrypted-messages.jpg",
+    title: "Force Duel",
+    file: "Red Blue Splatter (40x40).jpg",
     technique: "Acrylic on canvas",
-    format: "3×40×40 cm"
+    format: "40x40 cm",
   },
   {
     title: "Flesh Ground Dynamics",
@@ -49,11 +49,11 @@ const WORKS = [
     format: "50×70 cm",
   },
   {
-    title: "Force Duel",
-    file: "Red Blue Splatter (40x40).jpg",
-    technique: "Acrylic on canvas",
-    format: "40x40 cm",
-  },
+    title: "Entropy Tryptych",
+    file: "Entropy Tryptych.jpg",
+    technique: "Acrylic on paper",
+    format: "3x40x40 cm",
+  },  
   {
     title: "Path Network",
     file: "My Basic Color Set (30x30).jpg",
@@ -61,11 +61,11 @@ const WORKS = [
     format: "30×30 cm",
   },
   {
-    title: "Nine of Red",
-    file: "Nine of Red.jpg",
-    technique: "Acrylic on paper",
-    format: "29.7×42 cm",
-  },
+    title: "Triptych of Encrypted Messages",
+    file: "triptych-of-encrypted-messages.jpg",
+    technique: "Acrylic on canvas",
+    format: "3×40×40 cm"
+  },  
   {
     title: "Metallic Structure",
     file: "Metallic Structure.jpg",
@@ -119,5 +119,11 @@ const WORKS = [
     file: "White Crosses (40x40).jpg",
     technique: "Acrylic on canvas",
     format: "40×40 cm",
+  },
+ {
+    title: "Nine of Red",
+    file: "Nine of Red.jpg",
+    technique: "Acrylic on paper",
+    format: "29.7×42 cm",
   }
 ];
