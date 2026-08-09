@@ -50,7 +50,7 @@ const WORKS = [
   },
   {
     title: "Entropy Tryptych",
-    file: "Entropy Tryptych.jpg",
+    file: "Entropy Tryptych-.jpg",
     technique: "Acrylic on paper",
     format: "3x40x40 cm",
   },  
