@@ -7,13 +7,13 @@ const WORKS = [
     format: "3×40×40 cm"
   },
   {
-    title: "Force Duel",
+    title: "Collision",
     file: "Red Blue Splatter (40x40).jpg",
     technique: "Acrylic on canvas",
     format: "40x40 cm",
   },
   {
-    title: "Flesh Ground Dynamics",
+    title: "Salmon Static",
     file: "chaotic-salmon.jpg",
     technique: "Acrylic on canvas",
     format: "60×40 cm",
@@ -55,7 +55,7 @@ const WORKS = [
     format: "3x40x40 cm",
   },  
   {
-    title: "Path Network",
+    title: "Primary Web",
     file: "My Basic Color Set (30x30).jpg",
     technique: "Acrylic on canvas",
     format: "30×30 cm",
