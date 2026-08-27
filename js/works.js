@@ -24,17 +24,17 @@ const WORKS = [
     technique: "Acrylic on canvas",
     format: "40×40 cm",
   },
-    {
-    title: "All the Tubes I Had (Small)",
-    file: "All The Tubes I Had Small (40x40).jpg",
-    technique: "Acrylic on canvas",
-    format: "40×40 cm",
-  },
   {
-    title: "All the Tubes I Had (Large)",
-    file: "All The Tubes I Had Large (50x70).jpg",
+    title: "Entropy Tryptych",
+    file: "Entropy Tryptych-.jpg",
+    technique: "Acrylic on paper",
+    format: "3x40x40 cm",
+  },  
+  {
+    title: "Interaction",
+    file: "interaction.jpg",
     technique: "Acrylic on canvas",
-    format: "50×70 cm",
+    format: "3x20×20 cm",
   },
   {
     title: "Calibrating Circles",
@@ -48,17 +48,17 @@ const WORKS = [
     technique: "Acrylic on canvas",
     format: "50×70 cm",
   },
-  {
-    title: "Entropy Tryptych",
-    file: "Entropy Tryptych-.jpg",
-    technique: "Acrylic on paper",
-    format: "3x40x40 cm",
-  },  
-  {
-    title: "Primary Web",
-    file: "My Basic Color Set (30x30).jpg",
+    {
+    title: "All the Tubes I Had (Small)",
+    file: "All The Tubes I Had Small (40x40).jpg",
     technique: "Acrylic on canvas",
-    format: "30×30 cm",
+    format: "40×40 cm",
+  },
+  {
+    title: "All the Tubes I Had (Large)",
+    file: "All The Tubes I Had Large (50x70).jpg",
+    technique: "Acrylic on canvas",
+    format: "50×70 cm",
   },
   {
     title: "Triptych of Encrypted Messages",
@@ -125,5 +125,11 @@ const WORKS = [
     file: "Nine of Red.jpg",
     technique: "Acrylic on paper",
     format: "29.7×42 cm",
+  },
+  {
+    title: "Primary Web",
+    file: "My Basic Color Set (30x30).jpg",
+    technique: "Acrylic on canvas",
+    format: "30×30 cm",
   }
 ];
