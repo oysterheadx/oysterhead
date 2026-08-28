@@ -4,7 +4,7 @@ const WORKS = [
     title: "Yin and Yang Triptych",
     file: "yin-and-yang-triptych.jpg",
     technique: "Acrylic on canvas",
-    format: "3×40×40 cm"
+    format: "3 panels, 40 × 40 cm each"
   },
   {
     title: "Collision",
@@ -25,16 +25,16 @@ const WORKS = [
     format: "40×40 cm",
   },
   {
-    title: "Entropy Tryptych",
+    title: "Entropy Triptych",
     file: "Entropy Tryptych-.jpg",
     technique: "Acrylic on paper",
-    format: "3x40x40 cm",
+    format: "3 panels, 30 × 30 cm each",
   },  
   {
-    title: "Interaction",
+    title: "Interaction Triptych",
     file: "interaction.jpg",
     technique: "Acrylic on canvas",
-    format: "3x20×20 cm",
+    format: "3 panels, 20 × 20 cm each",
   },
   {
     title: "Calibrating Circles",
@@ -64,7 +64,7 @@ const WORKS = [
     title: "Triptych of Encrypted Messages",
     file: "triptych-of-encrypted-messages.jpg",
     technique: "Acrylic on canvas",
-    format: "3×40×40 cm"
+    format: "3 panels, 40 × 40 cm each"
   },  
   {
     title: "Metallic Structure",
