@@ -58,8 +58,10 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: clamp(1.25rem, 2.4vw, 2.25rem);
+  column-gap: clamp(1.25rem, 2.4vw, 2.25rem);
+  row-gap: 0;
   padding: clamp(1.25rem, 2.4vw, 2.25rem);
+  align-items: start;
 }
 
 .artwork {
@@ -73,24 +75,24 @@ body {
   color: inherit;
   font: inherit;
 }
-
 .artwork-frame {
   position: relative;
+  display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
+  overflow: visible;
   background: #101012;
 }
-
 .artwork-frame img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  position: relative;
+  z-index: 1;
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
   filter: saturate(0.92) brightness(0.97);
 }
-
 .artwork:hover .artwork-frame img,
 .artwork:focus-visible .artwork-frame img {
   transform: scale(1.035);
@@ -110,10 +112,10 @@ body {
 .artwork:focus-visible .artwork-frame::after {
   opacity: 1;
 }
-
 .artwork-caption {
   display: block;
-  padding: calc(0.6rem) 0.9rem 0.9rem;
+  padding: 0.6rem 0.9rem 0.9rem;
+  margin-bottom: -1px;
   font-size: 0.86rem;
   color: var(--ink-dim);
   letter-spacing: 0.01em;
